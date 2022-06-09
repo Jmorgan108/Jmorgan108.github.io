@@ -1,490 +1,376 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <link rel="shortcut icon" href="./assets/img/user-id-icon_34334.ico" />
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="./assets/img/user-id-icon_34334.ico"
-    />
-    <link
-      rel="stylesheet"
-      href="./assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"
-    />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" 
-    integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
-    />
-    <title>Joshua Morgan</title>
-  </head>
-  <body class="text-gray-800 antialiased">
 
-    <!--Nav Bar-->
-    <nav
-      class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg"
-    >
-    <div
-        class="container px-4 mx-auto flex flex-wrap items-center justify-between"
-      >
-      <div
-      class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
-    >
-      <a
-        class="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap text-white"
-        href="Qualifications.html" 
-        >Qualifications</a
-      >
-      <a
-        class="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap text-white"
-        href="projects.html"
-        >Projects</a
-      >
-      <a
-        class="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap text-white"
-        href="contact.html"
-        >Contact Me</a
-      >
-      <button
-        class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
-        type="button"
-        onclick="toggleNavbar('example-collapse-navbar')"
-      >
-        <i class="text-white fas fa-bars"></i>
-      </button>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="shortcut icon" href="./assets/img/user-id-icon_34334.ico" />
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/user-id-icon_34334.ico" />
+  <link rel="stylesheet" href="./assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" />
+  <title>Joshua Morgan</title>
+</head>
+
+<body class="text-gray-800 antialiased">
+
+  <!--Nav Bar-->
+  <nav class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg">
+    <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+      <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+        <a class="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap text-white"
+          href="Qualifications.html">Qualifications</a>
+        <a class="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap text-white"
+          href="projects.html">Projects</a>
+        <a class="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap text-white"
+          href="contact.html">Contact Me</a>
+        <button
+          class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+          type="button" onclick="toggleNavbar('example-collapse-navbar')">
+          <i class="text-white fas fa-bars"></i>
+        </button>
       </div>
-  
-  <div
-    class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
-    id="example-collapse-navbar"
-  >
+
+      <div class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
+        id="example-collapse-navbar">
         <!--Icon 1-->
-          <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
-            
-            <li class="flex items-center">
-              <a
-                class="lg:text-white text-black px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                href="https://github.com/Jmorgan108" target="_blank"
-                ><i
-                  class="lg:text-gray-300 text-gray-500 fab fa-github text-lg leading-lg "
-                ></i
-                ><span class="lg:hidden inline-block ml-2">Github Profile</span></a
-              >
-            </li>
-            <!--Icon 2-->
-            <li class="flex items-center">
-              <a
-                class="lg:text-white text-black px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                href="https://www.instagram.com/joshreubmorgan/" target="_blank"
-                ><i
-                  class="lg:text-gray-300 text-gray-500 fab fa-instagram text-lg leading-lg "
-                ></i
-                ><span class="lg:hidden inline-block ml-2">Instagram</span></a
-              >
-            </li>
-            <!--Icon 3-->
-            <li class="flex items-center">
-              <a
-                class="lg:text-white text-black px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                href="https://www.linkedin.com/in/joshuarmorgan008/" target="_blank"
-                ><i
-                  class="lg:text-gray-300 text-gray-500 fab fa-linkedin text-lg leading-lg "
-                ></i
-                ><span class="lg:hidden inline-block ml-2">Linkedin Profile</span></a
-              >
-            </li>
-          </ul>
+        <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+
+          <li class="flex items-center">
+            <a class="lg:text-white text-black px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="https://github.com/Jmorgan108" target="_blank"><i
+                class="lg:text-gray-300 text-gray-500 fab fa-github text-lg leading-lg "></i><span
+                class="lg:hidden inline-block ml-2">Github Profile</span></a>
+          </li>
+          <!--Icon 2-->
+          <li class="flex items-center">
+            <a class="lg:text-white text-black px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="https://www.instagram.com/joshreubmorgan/" target="_blank"><i
+                class="lg:text-gray-300 text-gray-500 fab fa-instagram text-lg leading-lg "></i><span
+                class="lg:hidden inline-block ml-2">Instagram</span></a>
+          </li>
+          <!--Icon 3-->
+          <li class="flex items-center">
+            <a class="lg:text-white text-black px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="https://www.linkedin.com/in/joshuarmorgan008/" target="_blank"><i
+                class="lg:text-gray-300 text-gray-500 fab fa-linkedin text-lg leading-lg "></i><span
+                class="lg:hidden inline-block ml-2">Linkedin Profile</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <!--Main Home Image-->
+    <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 95vh;">
+      <div class="absolute top-0 w-full h-full bg-top bg-cover"
+        style='background-image: url("https://images.unsplash.com/photo-1549589896-8ce0c788a111?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80");'>
+        <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
+      </div>
+      <div class="container relative mx-auto" data-aos="fade-in">
+        <div class="items-center flex flex-wrap">
+          <div class="w-full lg:w-8/12 px-4 ml-auto mr-auto text-center">
+            <div>
+              <h1 class="text-white font-semibold text-5xl">
+                Joshua Morgan | <span class='text-blue-500'>C# .NET Developer</span>
+              </h1>
+              <a href="./assets/Joshua_MorganCV.docx" target="_blank"
+                class="bg-transparent hover:bg-blue-500 text-white font-semibold hover:text-white p-4 border border-blue-500 hover:border-transparent rounded inline-block mt-5 cursor-pointer">Download
+                CV</a>
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
-    <main>
-      <!--Main Home Image-->
-      <div
-        class="relative pt-16 pb-32 flex content-center items-center justify-center"
-        style="min-height: 95vh;"
-      >
-        <div
-          class="absolute top-0 w-full h-full bg-top bg-cover"
-          style='background-image: url("https://images.unsplash.com/photo-1549589896-8ce0c788a111?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80");'
-        >
-          <span
-            id="blackOverlay"
-            class="w-full h-full absolute opacity-75 bg-black"
-          ></span>
-        </div>
-        <div class="container relative mx-auto" data-aos="fade-in">
-          <div class="items-center flex flex-wrap">
-            <div class="w-full lg:w-8/12 px-4 ml-auto mr-auto text-center">
-              <div>
-                <h1 class="text-white font-semibold text-5xl">
-                  Joshua Morgan | <span class='text-blue-500'>C# .NET Developer</span> 
-                </h1>
-                <a href="./assets/Joshua_MorganCV.docx" target="_blank" class="bg-transparent hover:bg-blue-500 text-white font-semibold hover:text-white p-4 border border-blue-500 hover:border-transparent rounded inline-block mt-5 cursor-pointer"
-                >Download CV</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
-          style="height: 70px; transform: translateZ(0px);"
-        >
-          <svg
-            class="absolute bottom-0 overflow-hidden"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none"
-            version="1.1"
-            viewBox="0 0 2560 100"
-            x="0"
-            y="0"
-          >
-            <polygon
-              points="2560 0 2560 100 0 100"
-            ></polygon>
-          </svg>
-        </div>
-      </div>
-
-      <!-- About Section -->
-      <section id="About" class="relative py-20 bg-white text-Black">
-        <div class="container mx-auto px-4">
-          <div class="items-center flex flex-wrap">
-            <div class="w-full md:w-4/12 ml-auto mr-auto px-4 mb-6" data-aos="fade-right">
-              <img
-                alt="..."
-                class="max-w-full rounded-lg shadow-lg"
-                src="./assets/img/itsmeingrey.JPG"
-              />
-            </div>
-            <div class="w-full md:w-5/12 ml-auto mr-auto px-4"data-aos="fade-left">
-              <div class="md:pr-12">
-                <small class='text-Black text-lg'>About Me</small>
-                <h3 class="text-3xl font-semibold">I am Joshua Morgan</h3>
-                <p class="mt-4 text-lg leading-relaxed">
-                  I am a Welsh Software Developer working at a Secure Printing company that uses Blockchain Technology in order to verify Authenticity.
-                  Computer Science graduate who achieved a 2:1 and was a course leader during my final year.
-                </p>
-                <p class="mt-4 text-lg leading-relaxed">
-                  I am quite a social person who enjoys going for drinks and a chat on the weekend and
-                  have always considered myself someone who is open to learning and I enjoy putting my 100% into things i'm interested in. 
-                </p>
-                <ul class="list-none mt-6">
-                  <li class="py-2">
-                    <div class="flex items-center">
-                      <div>
-                        <span
-                          class="font-semibold inline-block py-3 mr-3 text-Black"
-                          ><i class="fas fa-satellite fa-2x"></i
-                        ></span>
-                      </div>
-                      <div>
-                        <h4 class="text-xl">
-                          Space and Astronautical Engineering
-                        </h4>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="py-2">
-                    <div class="flex items-center">
-                      <div>
-                        <span
-                          class="font-semibold inline-block py-3 mr-3 text-Black"
-                          ><i class="fas fa-history fa-2x"></i
-                        ></span>
-                      </div>
-                      <div>
-                        <h4 class="text-xl">History</h4>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="py-2">
-                    <div class="flex items-center">
-                      <div>
-                        <span
-                          class="font-semibold inline-block py-3 mr-3 text-Black"
-                          ><i class="fas fa-graduation-cap  fa-2x"></i
-                        ></span>
-                      </div>
-                      <div>
-                        <h4 class="text-xl">Learning new skills</h4>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Roles/ Achievements ?-->
-      <section class="pb-20 bg-black">
-        <div class="container mx-auto px-4">
-          <div class="flex flex-wrap">
-            <div class="pt-6 w-full md:w-4/12 px-4 mt-4">
-              <div
-                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg" data-aos="fade-up"
-              >
-                <div class="px-4 py-5 flex-auto">
-                  <div
-                    class="font-semibold inline-block py-3 mr-3 text-Black"
-                  >
-                    <i class="fas fa-project-diagram fa-2x"></i>
-                  </div>
-                  <h class="text-xl font-semibold">PluralSight</h>
-                  <a href="https://app.pluralsight.com/achievements/share/4cb4d7dd-7021-463e-b671-5e2f7cb78a86" target="_blank">
-                    <p class="mt-2 mb-4 text-gray-600">
-                      <img
-                      alt="..."
-                      class="w-10 h-10 rounded-lg inline-flex"
-                      src="./assets/img/plurallogo.jpg"
-                      />
-                      Defensive Coding in C#
-                    </p>
-                  </a>
-                    
-                  <p href="https://app.pluralsight.com/achievements/share/809e219e-96b8-4539-8ce6-dd34d9a9f781" class="mt-2 mb-4 text-gray-600">
-                    <img
-                    alt="..."
-                    class="w-10 h-10 rounded-lg inline-flex"
-                    src="./assets/img/plurallogo.jpg"
-                    />
-                    C# 10: The Big Picture
-                  </p>
-                  <p href="https://app.pluralsight.com/achievements/share/6e49ea1f-e18c-4df1-8aaa-c2f7d8ac5820" class="mt-2 mb-4 text-gray-600">
-                    <img
-                    alt="..."
-                    class="w-10 h-10 rounded-lg inline-flex"
-                    src="./assets/img/plurallogo.jpg"
-                    />
-                    Object-Oriented Programming Fundamentals in C#
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="pt-6 w-full md:w-4/12 px-4 mt-4">
-              <div
-                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg" data-aos="fade-up"
-              >
-                <div class="px-4 py-5 flex-auto">
-                  <div
-                    class="font-semibold inline-block py-3 mr-3 text-Black"
-                  >
-                    <i class="fas fa-project-diagram fa-2x"></i>
-                  </div>
-                  <h class="text-xl font-semibold">LinkedInAwards</h>
-                  <p class="mt-2 mb-4 text-gray-600">
-                    Awards
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="pt-6 w-full md:w-4/12 px-4 mt-4">
-              <div
-                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg" data-aos="fade-up"
-              >
-                <div class="px-4 py-5 flex-auto">
-                  <div
-                    class="font-semibold inline-block py-3 mr-3 text-Black"
-                  >
-                    <i class="fas fa-project-diagram fa-2x"></i>
-                  </div>
-                  <h class="text-xl font-semibold">Other</h>
-                  <p class="mt-2 mb-4 text-gray-600">
-                    Other certs :
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="pt-20 pb-48">
-        <div class="container mx-auto px-4" >
-          <div class="flex flex-wrap justify-center text-center mb-24">
-            <div class="w-full lg:w-6/12 px-4">
-              <h2 class="text-4xl font-semibold uppercase">Languages I have experience in</h2>
-              <p class="text-lg leading-relaxed m-4">
-                Here I have listed some of the programming languages I have experience in either from university or through personal projects
-                and/or certifications.
-              </p>
-            </div>
-          </div>
-          <!-- Trainer Card Wrapper -->
-          <div class="flex flex-wrap">
-            <!-- Card 1 -->
-            <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-right">
-              <div class="px-6">
-                <img
-                  alt="..."
-                  src="./assets/img/sqlserver.png"
-                  class="shadow-lg rounded max-w-full mx-auto"
-                  style="max-width: 250px;"
-                />
-                <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">SQL and SQL Server</h5>
-                  <p class="mt-1 text-sm text-black font-semibold">
-                     I use SQL in order to store and query the data at my current workplace. I have an understanding of queries and joins in order to fulfill current 
-                     requirements and needs. I am undergoing deeper training in this area in order to strengthen my knowledge.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- Card 2 -->
-            <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4 mt-4" data-aos="flip-right">
-              <div class="px-6">
-                <img
-                  alt="..."
-                  src="./assets/img/CHashtagNet.png"
-                  class="shadow-lg rounded max-w-full mx-auto"
-                  style="max-width: 250px;"
-                />
-                <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">C# .NET</h5>
-                  <p class="mt-1 text-sm text-black font-semibold">
-                    Currently working as a C# Developer for over a year. Working on multiple projects and navigating a large codebase.
-                    Here I worked on large amounts of Unit Tests, Implemented APIs, Used MVC and Helped implement the ABP Framework. 
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- Card 3 -->
-            <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4 mt-4" data-aos="flip-right">
-              <div class="px-6">
-                <img
-                  alt="..."
-                  src="./assets/img/cplus.png"
-                  class="shadow-lg rounded max-w-full mx-auto"
-                  style="max-width: 250px;"
-                />
-                <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">C++</h5>
-                  <p class="mt-1 text-sm text-black font-semibold">
-                    Over my 3 years at university this was the primary language I used for software development. 
-                    I used this language in order to make small projects such as a hangman game, to bigger coursework such as a vending machine that uses states and security with maintenance modes.
-                    I also used this language when learning networking where I implemented a version of Dijkstra's algorithm.  
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- Card 4 -->
-            <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4 mt-4" data-aos="flip-right">
-              <div class="px-6">
-                <img
-                  alt="..."
-                  src="./assets/img/Untitled-8.png"
-                  class="shadow-lg rounded max-w-full mx-auto"
-                  style="max-width: 250px;"
-                />
-                <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">HTML, CSS and JavaScript</h5>
-                  <p class="mt-1 text-sm text-black font-semibold">
-                    I am experienced in using HTML and CSS through use in multiple projects and currently use CSHTML in my workplace. 
-                    I have moderate experience with JavaScript and I am undergoing training using tools such as Pluralsight in order to deepen my knowledge.  
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-    </main>
-
-    <!-- Footer -->
-    <footer class="relative bg-gray-300 pt-8 pb-6">
-      <div
-        class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-        style="height: 80px; transform: translateZ(0px);"
-      >
-        <svg
-          class="absolute bottom-0 overflow-hidden"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="none"
-          version="1.1"
-          viewBox="0 0 2560 100"
-          x="0"
-          y="0"
-        >
-          <polygon
-            class="text-gray-300 fill-current"
-            points="2560 0 2560 100 0 100"
-          ></polygon>
+      <div class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
+        style="height: 70px; transform: translateZ(0px);">
+        <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+          version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+          <polygon points="2560 0 2560 100 0 100"></polygon>
         </svg>
       </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="About" class="relative py-20 bg-white text-Black">
+      <div class="container mx-auto px-4">
+        <div class="items-center flex flex-wrap">
+          <div class="w-full md:w-4/12 ml-auto mr-auto px-4 mb-6" data-aos="fade-right">
+            <img alt="..." class="max-w-full rounded-lg shadow-lg" src="./assets/img/itsmeingrey.JPG" />
+          </div>
+          <div class="w-full md:w-5/12 ml-auto mr-auto px-4" data-aos="fade-left">
+            <div class="md:pr-12">
+              <small class='text-Black text-lg'>About Me</small>
+              <h3 class="text-3xl font-semibold">I am Joshua Morgan</h3>
+              <p class="mt-4 text-lg leading-relaxed">
+                I am a Welsh Software Developer working at a Secure Printing company that uses Blockchain Technology in
+                order to verify Authenticity.
+                Computer Science graduate who achieved a 2:1 and was a course leader during my final year.
+              </p>
+              <p class="mt-4 text-lg leading-relaxed">
+                I am quite a social person who enjoys going for drinks and a chat on the weekend and
+                have always considered myself someone who is open to learning and I enjoy putting my 100% into things
+                i'm interested in.
+              </p>
+              <ul class="list-none mt-6">
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span class="font-semibold inline-block py-3 mr-3 text-Black"><i
+                          class="fas fa-satellite fa-2x"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-xl">
+                        Space and Astronautical Engineering
+                      </h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span class="font-semibold inline-block py-3 mr-3 text-Black"><i
+                          class="fas fa-history fa-2x"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-xl">History</h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span class="font-semibold inline-block py-3 mr-3 text-Black"><i
+                          class="fas fa-graduation-cap  fa-2x"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-xl">Learning new skills</h4>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Roles/ Achievements ?-->
+    <section class="pb-20 bg-black">
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap">
+          <div class="pt-6 w-full md:w-4/12 px-4 mt-4">
+            <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+              data-aos="fade-up">
+              <div class="px-4 py-5 flex-auto">
+                <div class="font-semibold inline-block py-3 mr-3 text-Black">
+                  <i class="fas fa-project-diagram fa-2x"></i>
+                </div>
+                <h class="text-xl font-semibold">PluralSight</h>
+                <a href="https://app.pluralsight.com/achievements/share/4cb4d7dd-7021-463e-b671-5e2f7cb78a86"
+                  target="_blank">
+                  <p class="mt-2 mb-4 text-gray-600">
+                    <img alt="..." class="w-10 h-10 rounded-lg inline-flex" src="./assets/img/plurallogo.jpg" />
+                    Defensive Coding in C#
+                  </p>
+                </a>
+
+                <p href="https://app.pluralsight.com/achievements/share/809e219e-96b8-4539-8ce6-dd34d9a9f781"
+                  class="mt-2 mb-4 text-gray-600">
+                  <img alt="..." class="w-10 h-10 rounded-lg inline-flex" src="./assets/img/plurallogo.jpg" />
+                  C# 10: The Big Picture
+                </p>
+                <p href="https://app.pluralsight.com/achievements/share/6e49ea1f-e18c-4df1-8aaa-c2f7d8ac5820"
+                  class="mt-2 mb-4 text-gray-600">
+                  <img alt="..." class="w-10 h-10 rounded-lg inline-flex" src="./assets/img/plurallogo.jpg" />
+                  Object-Oriented Programming Fundamentals in C#
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="pt-6 w-full md:w-4/12 px-4 mt-4">
+            <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+              data-aos="fade-up">
+              <div class="px-4 py-5 flex-auto">
+                <div class="font-semibold inline-block py-3 mr-3 text-Black">
+                  <i class="fas fa-project-diagram fa-2x"></i>
+                </div>
+                <h class="text-xl font-semibold">LinkedInAwards</h>
+                <p class="mt-2 mb-4 text-gray-600">
+                  Awards
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="pt-6 w-full md:w-4/12 px-4 mt-4">
+            <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+              data-aos="fade-up">
+              <div class="px-4 py-5 flex-auto">
+                <div class="font-semibold inline-block py-3 mr-3 text-Black">
+                  <i class="fas fa-project-diagram fa-2x"></i>
+                </div>
+                <h class="text-xl font-semibold">Other</h>
+                <p class="mt-2 mb-4 text-gray-600">
+                  Other certs :
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pt-20 pb-48">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap justify-center text-center mb-24">
           <div class="w-full lg:w-6/12 px-4">
-            <h4 class="text-3xl font-semibold">Please feel free to contact me!</h4>
-            <h5 class="text-lg mt-0 mb-2 text-gray-700">
-              Find me on any of these platforms, I respond within 24 hours.
-            </h5>
-            <div class="mt-6">
-              <a
-                href="https://github.com/Jmorgan108" target="_blank"
-              >
+            <h2 class="text-4xl font-semibold uppercase">Languages I have experience in</h2>
+            <p class="text-lg leading-relaxed m-4">
+              Here I have listed some of the programming languages I have experience in either from university or
+              through personal projects
+              and/or certifications.
+            </p>
+          </div>
+        </div>
+        <!-- Trainer Card Wrapper -->
+        <div class="flex flex-wrap">
+          <!-- Card 1 -->
+          <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-right">
+            <div class="px-6">
+              <img alt="..." src="./assets/img/sqlserver.png" class="shadow-lg rounded max-w-full mx-auto"
+                style="max-width: 250px;" />
+              <div class="pt-6 text-center">
+                <h5 class="text-xl font-bold">SQL and SQL Server</h5>
+                <p class="mt-1 text-sm text-black font-semibold">
+                  I use SQL in order to store and query the data at my current workplace. I have an understanding of
+                  queries and joins in order to fulfill current
+                  requirements and needs. I am undergoing deeper training in this area in order to strengthen my
+                  knowledge.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4 mt-4" data-aos="flip-right">
+            <div class="px-6">
+              <img alt="..." src="./assets/img/CHashtagNet.png" class="shadow-lg rounded max-w-full mx-auto"
+                style="max-width: 250px;" />
+              <div class="pt-6 text-center">
+                <h5 class="text-xl font-bold">C# .NET</h5>
+                <p class="mt-1 text-sm text-black font-semibold">
+                  Currently working as a C# Developer for over a year. Working on multiple projects and navigating a
+                  large codebase.
+                  Here I worked on large amounts of Unit Tests, Implemented APIs, Used MVC and Helped implement the ABP
+                  Framework.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4 mt-4" data-aos="flip-right">
+            <div class="px-6">
+              <img alt="..." src="./assets/img/cplus.png" class="shadow-lg rounded max-w-full mx-auto"
+                style="max-width: 250px;" />
+              <div class="pt-6 text-center">
+                <h5 class="text-xl font-bold">C++</h5>
+                <p class="mt-1 text-sm text-black font-semibold">
+                  Over my 3 years at university this was the primary language I used for software development.
+                  I used this language in order to make small projects such as a hangman game, to bigger coursework such
+                  as a vending machine that uses states and security with maintenance modes.
+                  I also used this language when learning networking where I implemented a version of Dijkstra's
+                  algorithm.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4 mt-4" data-aos="flip-right">
+            <div class="px-6">
+              <img alt="..." src="./assets/img/Untitled-8.png" class="shadow-lg rounded max-w-full mx-auto"
+                style="max-width: 250px;" />
+              <div class="pt-6 text-center">
+                <h5 class="text-xl font-bold">HTML, CSS and JavaScript</h5>
+                <p class="mt-1 text-sm text-black font-semibold">
+                  I am experienced in using HTML and CSS through use in multiple projects and currently use CSHTML in my
+                  workplace.
+                  I have moderate experience with JavaScript and I am undergoing training using tools such as
+                  Pluralsight in order to deepen my knowledge.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="relative bg-gray-300 pt-8 pb-6">
+    <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+      style="height: 80px; transform: translateZ(0px);">
+      <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+        version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+        <polygon class="text-gray-300 fill-current" points="2560 0 2560 100 0 100"></polygon>
+      </svg>
+    </div>
+    <div class="container mx-auto px-4">
+      <div class="flex flex-wrap">
+        <div class="w-full lg:w-6/12 px-4">
+          <h4 class="text-3xl font-semibold">Please feel free to contact me!</h4>
+          <h5 class="text-lg mt-0 mb-2 text-gray-700">
+            Find me on any of these platforms, I respond within 24 hours.
+          </h5>
+          <div class="mt-6">
+            <a href="https://github.com/Jmorgan108" target="_blank">
               <button
                 class="bg-white text-black shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                type="button"
-              >
-                <i class="flex fab fa-github"></i></button
-              >
-              </a>
-              <a
-                href="https://www.instagram.com/joshreubmorgan/" target="_blank"
-              >
+                type="button">
+                <i class="flex fab fa-github"></i></button>
+            </a>
+            <a href="https://www.instagram.com/joshreubmorgan/" target="_blank">
               <button
                 class="bg-white text-pink-500 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                type="button"
-                
-              >
-                <i class="flex fab fa-instagram"></i></button
-              >
+                type="button">
+                <i class="flex fab fa-instagram"></i></button>
             </a>
-            <a
-                href="https://www.linkedin.com/in/joshuarmorgan008/" target="_blank"
-              >
-            <button
+            <a href="https://www.linkedin.com/in/joshuarmorgan008/" target="_blank">
+              <button
                 class="bg-white text-blue-700 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                type="button"
-              >
+                type="button">
                 <i class="flex fab fa-linkedin"></i>
               </button>
             </a>
-            </div>
-          </div>
-        </div>
-        <hr class="my-6 border-gray-400" />
-        <div
-          class="flex flex-wrap items-center md:justify-between justify-center"
-        >
-          <div class="w-full md:w-4/12 px-4 mx-auto text-center">
-            <div class="text-sm text-gray-600 font-semibold py-1">
-              Copyright © 2020-2022 Joshua Morgan
-
-            </div>
           </div>
         </div>
       </div>
-    </footer>
-  </body>
-  <script>
-    function toggleNavbar(collapseID) {
-      document.getElementById(collapseID).classList.toggle("hidden");
-      document.getElementById(collapseID).classList.toggle("block");
-    }
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" 
-  integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous"></script>
-  <script>AOS.init({
+      <hr class="my-6 border-gray-400" />
+      <div class="flex flex-wrap items-center md:justify-between justify-center">
+        <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+          <div class="text-sm text-gray-600 font-semibold py-1">
+            Copyright © 2020-2022 Joshua Morgan
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script>
+  function toggleNavbar(collapseID) {
+    document.getElementById(collapseID).classList.toggle("hidden");
+    document.getElementById(collapseID).classList.toggle("block");
+  }
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+  integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+  crossorigin="anonymous"></script>
+<script>AOS.init({
     delay: 100,
     duration: 1200,
     once: false,
   })</script>
+
 </html>
